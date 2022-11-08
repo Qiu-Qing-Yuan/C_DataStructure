@@ -34,7 +34,7 @@ LNode *LocateElem(LinkList L, ElemType e){
 }
 
 //插入
-Status ListInsert(LinkList *L,int i,ElemType e)
+Status ListInsert(LinkList L,int i,ElemType e)
 {
     LNode* p = L;int j = 0;
     while(p && (j < i-1))
