@@ -34,7 +34,21 @@ LNode *LocateElem(LinkList L, ElemType e){
 }
 
 //插入
-Status ListInsert(LinkList )
+Status ListInsert(LinkList *L,int i,ElemType e)
+{
+    LNode* p = L;int j = 0;
+    while(p && (j < i-1))
+    {
+        p = p->next;
+        ++j;
+    }
+    if(!p || j>i-1) return ERROR; //i>n+1 或者 i<1
+    LNode* s = (LNode*)malloc(sizeof (LNode));
+    s->data = e;
+    s->next = p->next;
+    p->next = s;
+    return OK;
+}
 
 int main() {
     printf("Hello, World!\n");
