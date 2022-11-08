@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/CLanguage/DataStructure/SequentialRepresentationOfList/main.c
+main.h
+F:/CLanguage/DataStructure/SequentialRepresentationOfList/main.h
+stdio.h
+F:/CLanguage/DataStructure/SequentialRepresentationOfList/stdio.h
+malloc.h
+F:/CLanguage/DataStructure/SequentialRepresentationOfList/malloc.h
+
+F:/CLanguage/DataStructure/SequentialRepresentationOfList/main.h
+

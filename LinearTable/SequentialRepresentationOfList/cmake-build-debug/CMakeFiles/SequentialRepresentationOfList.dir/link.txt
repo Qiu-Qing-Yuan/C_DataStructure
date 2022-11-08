@@ -1,0 +1,3 @@
+"D:\DevelopTools\Clion\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\SequentialRepresentationOfList.dir/objects.a
+D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\ar.exe cr CMakeFiles\SequentialRepresentationOfList.dir/objects.a @CMakeFiles\SequentialRepresentationOfList.dir\objects1.rsp
+D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\SequentialRepresentationOfList.dir/objects.a -Wl,--no-whole-archive -o SequentialRepresentationOfList.exe -Wl,--out-implib,libSequentialRepresentationOfList.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SequentialRepresentationOfList.dir\linklibs.rsp
