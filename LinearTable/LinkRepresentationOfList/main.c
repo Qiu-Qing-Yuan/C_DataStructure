@@ -33,7 +33,7 @@ LNode *LocateElem(LinkList L, ElemType e){
     return p;
 }
 
-//插入
+//插入（在带头结点的单链线性表L中第i个位置之前插入元素）
 Status ListInsert(LinkList L,int i,ElemType e)
 {
     LNode* p = L;int j = 0;
@@ -49,6 +49,79 @@ Status ListInsert(LinkList L,int i,ElemType e)
     p->next = s;
     return OK;
 }
+
+//删除
+Status ListDelete(LinkList L,int i)
+{
+    LNode* p = L;int j=0;
+    while((p->next)  && (j<i-1)) //查找第i-1个节点
+    {
+        p = p->next;
+        ++j;
+    }
+    if(!(p->next) || (j>i-1)) return ERROR;
+    LNode* q = p->next;//临时保存被删节点的地址以备释放
+    p->next = q->next;//改变删除节点前驱节点的指针域
+    free(q);
+    return OK;
+}
+
+//头插法创建单链表
+void CreateList_H(LinkList L,int n)
+{
+    //逆位序输入n个元素的值，建立带表头结点的单链表
+    int i;
+    L = (LinkList) malloc(sizeof (LNode));
+    L->next = NULL;
+    for(i=0; i<n; ++i){
+        LNode* p = (LinkList) malloc(sizeof (LNode));//生成新节点
+        scanf(&p->data);//输入元素值
+        p->next = L->next;//插入到表头
+        L->next = p;
+    }
+
+}
+
+//尾插法创建单链表
+void CreateList_R(LinkList L,int n)
+{
+    int i;
+    L = (LinkList) malloc(sizeof (LNode));
+    L->next = NULL;
+    LinkList r = L;
+    for(i=0;i<n;i++)
+    {
+        LNode* p = (LinkList) malloc(sizeof (LNode));
+        scanf(&p->data);
+        p->next = NULL;
+        r->next = p;
+        r = p;
+    }
+}
+
+//将两个有序链表合并为一个有序链表
+void MergeList_L(LinkList la,LinkList lb,LinkList lc)
+{
+    //已知单链线性表的La和Lb的元素按值非递减排列
+    //归并La和Lb得到新的单链线性表Lc，Lc的元素也按值非递减排列
+    LinkList pa = la->next,pb = lb->next,pc;
+    lc = pc = la;
+    while(pa && pb)
+    {
+        if(pa->data <= pb->data){
+            pc->next = pa;
+            pc = pa;
+            pa = pa->next;
+        }else{
+            pc->next = pb;
+            pc =pb;
+            pb = pb->next;
+        }
+    }
+    pc->next = pa?pa:pb;//插入剩余段
+    free(lb);//释放lb的头结点
+}
+
 
 int main() {
     printf("Hello, World!\n");
