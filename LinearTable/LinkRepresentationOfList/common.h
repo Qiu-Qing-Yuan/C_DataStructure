@@ -1,3 +1,6 @@
+#include <time.h>
+#include "stdio.h"
+#include "malloc.h"
 #define ElemType int
 #define Status int
 #define OK 1

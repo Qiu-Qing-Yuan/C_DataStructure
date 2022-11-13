@@ -1,5 +1,3 @@
-#include "stdio.h"
-#include "malloc.h"
 #include "common.h"
 
 Status InitList(LinkList L)
@@ -36,13 +34,13 @@ LNode *LocateElem(LinkList L, ElemType e){
 //插入（在带头结点的单链线性表L中第i个位置之前插入元素）
 Status ListInsert(LinkList L,int i,ElemType e)
 {
-    LNode* p = L;int j = 0;
-    while(p && (j < i-1))
+    LNode* p = L;int j = 1;
+    while(p && j < i)
     {
         p = p->next;
-        ++j;
+        ++j;//比指针快1，等于i的时候指针在第i-1个节点
     }
-    if(!p || j>i-1) return ERROR; //i>n+1 或者 i<1
+    if(!p || j>i) return ERROR; //i>n+1 或者 i<1
     LNode* s = (LNode*)malloc(sizeof (LNode));
     s->data = e;
     s->next = p->next;
@@ -53,13 +51,13 @@ Status ListInsert(LinkList L,int i,ElemType e)
 //删除
 Status ListDelete(LinkList L,int i)
 {
-    LNode* p = L;int j=0;
-    while((p->next)  && (j<i-1)) //查找第i-1个节点
+    LNode* p = L;int j=1;
+    while((p->next)  && (j<i)) //查找第i-1个节点
     {
         p = p->next;
         ++j;
     }
-    if(!(p->next) || (j>i-1)) return ERROR;
+    if(!(p->next) || (j>i)) return ERROR;
     LNode* q = p->next;//临时保存被删节点的地址以备释放
     p->next = q->next;//改变删除节点前驱节点的指针域
     free(q);
@@ -71,11 +69,14 @@ void CreateList_H(LinkList L,int n)
 {
     //逆位序输入n个元素的值，建立带表头结点的单链表
     int i;
+    LNode* p ;
+    srand(time(0));
     L = (LinkList) malloc(sizeof (LNode));
     L->next = NULL;
     for(i=0; i<n; ++i){
-        LNode* p = (LinkList) malloc(sizeof (LNode));//生成新节点
-        scanf(&p->data);//输入元素值
+        p = (LinkList) malloc(sizeof (LNode));//生成新节点
+        p->data = rand()%100+1;//随机生成100以内的数字
+//        scanf(&p->data);//输入元素值
         p->next = L->next;//插入到表头
         L->next = p;
     }
@@ -86,17 +87,21 @@ void CreateList_H(LinkList L,int n)
 void CreateList_R(LinkList L,int n)
 {
     int i;
+    LNode* p;
+    srand(time(0));
     L = (LinkList) malloc(sizeof (LNode));
     L->next = NULL;
     LinkList r = L;
     for(i=0;i<n;i++)
     {
-        LNode* p = (LinkList) malloc(sizeof (LNode));
-        scanf(&p->data);
+        p = (LinkList) malloc(sizeof (LNode));
+        p->data = rand()%100+1;//随机生成100以内的数字
+//        scanf(&p->data);
         p->next = NULL;
         r->next = p;
         r = p;
     }
+    r->next = NULL;
 }
 
 //将两个有序链表合并为一个有序链表
