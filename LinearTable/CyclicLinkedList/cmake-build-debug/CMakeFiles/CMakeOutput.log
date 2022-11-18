@@ -1,0 +1,207 @@
+The system is: Windows - 10.0.19043 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/BaiduNetdiskDownload/CBuildTools/Dev-Cpp/MinGW32/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "F:/C/DataStructure/LinearTable/CyclicLinkedList/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/a.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: F:/C/DataStructure/LinearTable/CyclicLinkedList/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/BaiduNetdiskDownload/CBuildTools/Dev-Cpp/MinGW32/bin/mingw32-make.exe cmTC_45870/fast && D:/BaiduNetdiskDownload/CBuildTools/Dev-Cpp/MinGW32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_45870.dir\build.make CMakeFiles/cmTC_45870.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/C/DataStructure/LinearTable/CyclicLinkedList/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45870.dir/CMakeCCompilerABI.c.obj
+D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe   -v -o CMakeFiles\cmTC_45870.dir\CMakeCCompilerABI.c.obj -c "D:\DevelopTools\Clion\CLion 2021.1.3\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe
+Target: mingw32
+Configured with: ../gcc-4.8.1/configure --prefix=/mingw --host=mingw32 --build=mingw32 --without-pic --enable-shared --enable-static --with-gnu-ld --enable-lto --enable-libssp --disable-multilib --enable-languages=c,c++,fortran,objc,obj-c++,ada --disable-sjlj-exceptions --with-dwarf2 --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --with-gmp=/usr/src/pkg/gmp-5.1.2-1-mingw32-src/bld --with-mpc=/usr/src/pkg/mpc-1.0.1-1-mingw32-src/bld --with-mpfr= --with-system-zlib --with-gnu-as --enable-decimal-float=yes --enable-libgomp --enable-threads --with-libiconv-prefix=/mingw32 --with-libintl-prefix=/mingw --disable-bootstrap LDFLAGS=-s CFLAGS=-D_USE_32BIT_TIME_T
+Thread model: win32
+gcc version 4.8.1 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_45870.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+ d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.8.1/cc1.exe -quiet -v -iprefix d:\baidunetdiskdownload\cbuildtools\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.8.1/ D:\DevelopTools\Clion\CLion 2021.1.3\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles\cmTC_45870.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\QQY123~1\AppData\Local\Temp\ccb9YSnE.s
+GNU C (GCC) version 4.8.1 (mingw32)
+	compiled by GNU C version 4.8.1, GMP version 5.1.2, MPFR version 3.1.2, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/lib/gcc/../../lib/gcc/mingw32/4.8.1/include"
+ignoring duplicate directory "d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/lib/gcc/../../lib/gcc/mingw32/4.8.1/../../../../include"
+ignoring nonexistent directory "/mingw/include"
+ignoring duplicate directory "d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/lib/gcc/../../lib/gcc/mingw32/4.8.1/include-fixed"
+ignoring duplicate directory "d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/lib/gcc/../../lib/gcc/mingw32/4.8.1/../../../../mingw32/include"
+ignoring nonexistent directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ d:\baidunetdiskdownload\cbuildtools\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.8.1/include
+ d:\baidunetdiskdownload\cbuildtools\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.8.1/../../../../include
+ d:\baidunetdiskdownload\cbuildtools\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.8.1/include-fixed
+ d:\baidunetdiskdownload\cbuildtools\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include
+End of search list.
+GNU C (GCC) version 4.8.1 (mingw32)
+	compiled by GNU C version 4.8.1, GMP version 5.1.2, MPFR version 3.1.2, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 767202a405449496e68a54c4eee91a28
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_45870.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+ d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_45870.dir\CMakeCCompilerABI.c.obj C:\Users\QQY123~1\AppData\Local\Temp\ccb9YSnE.s
+GNU assembler version 2.23.2 (mingw32) using BFD version (GNU Binutils) 2.23.2
+COMPILER_PATH=d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.8.1/;d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../libexec/gcc/;d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/
+LIBRARY_PATH=d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/;d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/;d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/;d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_45870.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+Linking C executable cmTC_45870.exe
+"D:\DevelopTools\Clion\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_45870.dir\link.txt --verbose=1
+"D:\DevelopTools\Clion\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_45870.dir/objects.a
+D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\ar.exe cr CMakeFiles\cmTC_45870.dir/objects.a @CMakeFiles\cmTC_45870.dir\objects1.rsp
+D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_45870.dir/objects.a -Wl,--no-whole-archive -o cmTC_45870.exe -Wl,--out-implib,libcmTC_45870.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe
+COLLECT_LTO_WRAPPER=d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.8.1/lto-wrapper.exe
+Target: mingw32
+Configured with: ../gcc-4.8.1/configure --prefix=/mingw --host=mingw32 --build=mingw32 --without-pic --enable-shared --enable-static --with-gnu-ld --enable-lto --enable-libssp --disable-multilib --enable-languages=c,c++,fortran,objc,obj-c++,ada --disable-sjlj-exceptions --with-dwarf2 --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --with-gmp=/usr/src/pkg/gmp-5.1.2-1-mingw32-src/bld --with-mpc=/usr/src/pkg/mpc-1.0.1-1-mingw32-src/bld --with-mpfr= --with-system-zlib --with-gnu-as --enable-decimal-float=yes --enable-libgomp --enable-threads --with-libiconv-prefix=/mingw32 --with-libintl-prefix=/mingw --disable-bootstrap LDFLAGS=-s CFLAGS=-D_USE_32BIT_TIME_T
+Thread model: win32
+gcc version 4.8.1 (GCC) 
+COMPILER_PATH=d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.8.1/;d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../libexec/gcc/;d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/
+LIBRARY_PATH=d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/;d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/;d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/;d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_45870.exe' '-mtune=generic' '-march=pentiumpro'
+ d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.8.1/collect2.exe -Bdynamic -o cmTC_45870.exe d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/crt2.o d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/crtbegin.o -Ld:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1 -Ld:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc -Ld:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib -Ld:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../.. --whole-archive CMakeFiles\cmTC_45870.dir/objects.a --no-whole-archive --out-implib libcmTC_45870.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/crtend.o
+mingw32-make.exe[1]: Leaving directory 'F:/C/DataStructure/LinearTable/CyclicLinkedList/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/include]
+    add: [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../../include]
+    add: [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/include-fixed]
+    add: [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/include]
+  end of search list found
+  collapse include dir [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/include] ==> [D:/BaiduNetdiskDownload/CBuildTools/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.8.1/include]
+  collapse include dir [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../../include] ==> [D:/BaiduNetdiskDownload/CBuildTools/Dev-Cpp/MinGW32/include]
+  collapse include dir [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/include-fixed] ==> [D:/BaiduNetdiskDownload/CBuildTools/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.8.1/include-fixed]
+  collapse include dir [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/include] ==> [D:/BaiduNetdiskDownload/CBuildTools/Dev-Cpp/MinGW32/mingw32/include]
+  implicit include dirs: [D:/BaiduNetdiskDownload/CBuildTools/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.8.1/include;D:/BaiduNetdiskDownload/CBuildTools/Dev-Cpp/MinGW32/include;D:/BaiduNetdiskDownload/CBuildTools/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.8.1/include-fixed;D:/BaiduNetdiskDownload/CBuildTools/Dev-Cpp/MinGW32/mingw32/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: F:/C/DataStructure/LinearTable/CyclicLinkedList/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/BaiduNetdiskDownload/CBuildTools/Dev-Cpp/MinGW32/bin/mingw32-make.exe cmTC_45870/fast && D:/BaiduNetdiskDownload/CBuildTools/Dev-Cpp/MinGW32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_45870.dir\build.make CMakeFiles/cmTC_45870.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'F:/C/DataStructure/LinearTable/CyclicLinkedList/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_45870.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe   -v -o CMakeFiles\cmTC_45870.dir\CMakeCCompilerABI.c.obj -c "D:\DevelopTools\Clion\CLion 2021.1.3\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../gcc-4.8.1/configure --prefix=/mingw --host=mingw32 --build=mingw32 --without-pic --enable-shared --enable-static --with-gnu-ld --enable-lto --enable-libssp --disable-multilib --enable-languages=c,c++,fortran,objc,obj-c++,ada --disable-sjlj-exceptions --with-dwarf2 --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --with-gmp=/usr/src/pkg/gmp-5.1.2-1-mingw32-src/bld --with-mpc=/usr/src/pkg/mpc-1.0.1-1-mingw32-src/bld --with-mpfr= --with-system-zlib --with-gnu-as --enable-decimal-float=yes --enable-libgomp --enable-threads --with-libiconv-prefix=/mingw32 --with-libintl-prefix=/mingw --disable-bootstrap LDFLAGS=-s CFLAGS=-D_USE_32BIT_TIME_T]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.8.1 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_45870.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [ d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.8.1/cc1.exe -quiet -v -iprefix d:\baidunetdiskdownload\cbuildtools\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.8.1/ D:\DevelopTools\Clion\CLion 2021.1.3\bin\cmake\win\share\cmake-3.19\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles\cmTC_45870.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\QQY123~1\AppData\Local\Temp\ccb9YSnE.s]
+  ignore line: [GNU C (GCC) version 4.8.1 (mingw32)]
+  ignore line: [	compiled by GNU C version 4.8.1  GMP version 5.1.2  MPFR version 3.1.2  MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/lib/gcc/../../lib/gcc/mingw32/4.8.1/include"]
+  ignore line: [ignoring duplicate directory "d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/lib/gcc/../../lib/gcc/mingw32/4.8.1/../../../../include"]
+  ignore line: [ignoring nonexistent directory "/mingw/include"]
+  ignore line: [ignoring duplicate directory "d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/lib/gcc/../../lib/gcc/mingw32/4.8.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/lib/gcc/../../lib/gcc/mingw32/4.8.1/../../../../mingw32/include"]
+  ignore line: [ignoring nonexistent directory "/mingw/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ d:\baidunetdiskdownload\cbuildtools\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.8.1/include]
+  ignore line: [ d:\baidunetdiskdownload\cbuildtools\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.8.1/../../../../include]
+  ignore line: [ d:\baidunetdiskdownload\cbuildtools\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.8.1/include-fixed]
+  ignore line: [ d:\baidunetdiskdownload\cbuildtools\dev-cpp\mingw32\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C (GCC) version 4.8.1 (mingw32)]
+  ignore line: [	compiled by GNU C version 4.8.1  GMP version 5.1.2  MPFR version 3.1.2  MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 767202a405449496e68a54c4eee91a28]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_45870.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [ d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_45870.dir\CMakeCCompilerABI.c.obj C:\Users\QQY123~1\AppData\Local\Temp\ccb9YSnE.s]
+  ignore line: [GNU assembler version 2.23.2 (mingw32) using BFD version (GNU Binutils) 2.23.2]
+  ignore line: [COMPILER_PATH=d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.8.1/]
+  ignore line: [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../libexec/gcc/]
+  ignore line: [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/]
+  ignore line: [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/]
+  ignore line: [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/]
+  ignore line: [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_45870.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [Linking C executable cmTC_45870.exe]
+  ignore line: ["D:\DevelopTools\Clion\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_45870.dir\link.txt --verbose=1]
+  ignore line: ["D:\DevelopTools\Clion\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_45870.dir/objects.a]
+  ignore line: [D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\ar.exe cr CMakeFiles\cmTC_45870.dir/objects.a @CMakeFiles\cmTC_45870.dir\objects1.rsp]
+  ignore line: [D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe  -v -Wl --whole-archive CMakeFiles\cmTC_45870.dir/objects.a -Wl --no-whole-archive -o cmTC_45870.exe -Wl --out-implib libcmTC_45870.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.8.1/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../gcc-4.8.1/configure --prefix=/mingw --host=mingw32 --build=mingw32 --without-pic --enable-shared --enable-static --with-gnu-ld --enable-lto --enable-libssp --disable-multilib --enable-languages=c,c++,fortran,objc,obj-c++,ada --disable-sjlj-exceptions --with-dwarf2 --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --with-gmp=/usr/src/pkg/gmp-5.1.2-1-mingw32-src/bld --with-mpc=/usr/src/pkg/mpc-1.0.1-1-mingw32-src/bld --with-mpfr= --with-system-zlib --with-gnu-as --enable-decimal-float=yes --enable-libgomp --enable-threads --with-libiconv-prefix=/mingw32 --with-libintl-prefix=/mingw --disable-bootstrap LDFLAGS=-s CFLAGS=-D_USE_32BIT_TIME_T]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.8.1 (GCC) ]
+  ignore line: [COMPILER_PATH=d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.8.1/]
+  ignore line: [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../libexec/gcc/]
+  ignore line: [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/]
+  ignore line: [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/]
+  ignore line: [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/]
+  ignore line: [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_45870.exe' '-mtune=generic' '-march=pentiumpro']
+  link line: [ d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.8.1/collect2.exe -Bdynamic -o cmTC_45870.exe d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/crt2.o d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/crtbegin.o -Ld:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1 -Ld:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc -Ld:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib -Ld:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../.. --whole-archive CMakeFiles\cmTC_45870.dir/objects.a --no-whole-archive --out-implib libcmTC_45870.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/crtend.o]
+    arg [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../libexec/gcc/mingw32/4.8.1/collect2.exe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_45870.exe] ==> ignore
+    arg [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/crt2.o] ==> ignore
+    arg [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/crtbegin.o] ==> ignore
+    arg [-Ld:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1] ==> dir [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1]
+    arg [-Ld:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc] ==> dir [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc]
+    arg [-Ld:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib] ==> dir [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib]
+    arg [-Ld:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../..] ==> dir [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_45870.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_45870.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/crtend.o] ==> ignore
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  collapse library dir [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1] ==> [D:/BaiduNetdiskDownload/CBuildTools/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.8.1]
+  collapse library dir [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc] ==> [D:/BaiduNetdiskDownload/CBuildTools/Dev-Cpp/MinGW32/lib/gcc]
+  collapse library dir [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib] ==> [D:/BaiduNetdiskDownload/CBuildTools/Dev-Cpp/MinGW32/mingw32/lib]
+  collapse library dir [d:/baidunetdiskdownload/cbuildtools/dev-cpp/mingw32/bin/../lib/gcc/mingw32/4.8.1/../../..] ==> [D:/BaiduNetdiskDownload/CBuildTools/Dev-Cpp/MinGW32/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex]
+  implicit dirs: [D:/BaiduNetdiskDownload/CBuildTools/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.8.1;D:/BaiduNetdiskDownload/CBuildTools/Dev-Cpp/MinGW32/lib/gcc;D:/BaiduNetdiskDownload/CBuildTools/Dev-Cpp/MinGW32/mingw32/lib;D:/BaiduNetdiskDownload/CBuildTools/Dev-Cpp/MinGW32/lib]
+  implicit fwks: []
+
+
