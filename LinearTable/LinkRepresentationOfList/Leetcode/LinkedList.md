@@ -60,3 +60,34 @@ struct ListNode* reverseList(struct ListNode* head){
 }
 ~~~
 
+
+
+## [剑指 Offer 18. 删除链表的节点]()
+
+### 思路
+
+### 解法
+
+#### 解法一：双指针
+
+![image-20221118101914337](LinkedList.assets/image-20221118101914337.png)
+
+~~~C
+struct ListNode* deleteNode(struct ListNode* head, int val){
+    if(head->val == val) {  // 头节点为待删除的节点
+        return head->next;
+    }
+    
+    struct ListNode* cur = head;  // 当前节点
+    struct ListNode* pre = head;  // 保存待删除节点的前一节点
+    while (cur != NULL && cur->val != val) {
+        pre = cur;
+        cur = cur->next;
+    }
+    if (cur != NULL) {
+        pre->next = cur->next;
+    }
+    return head;
+}
+~~~
+
