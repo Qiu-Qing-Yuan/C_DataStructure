@@ -11,7 +11,7 @@ Status InitList(LinkList L)
 //取值
 Status GetElem(LinkList L,int i,ElemType *e)
 {
-    LNode* p = L->next;//初始化，p指向首元结点，计数器j初值赋为1
+    LNode* p = L->next;//初始化，p指向首元结点， 计数器j初值赋为1
     int j = 1;
     while(p && j<i) //顺链域向后扫描，直到p为空域或者p指向第i个元素
     {

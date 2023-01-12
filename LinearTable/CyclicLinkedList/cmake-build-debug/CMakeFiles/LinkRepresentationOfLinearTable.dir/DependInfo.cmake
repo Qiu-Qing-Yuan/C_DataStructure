@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "F:/C/DataStructure/LinearTable/CyclicLinkedList/main.c" "F:/C/DataStructure/LinearTable/CyclicLinkedList/cmake-build-debug/CMakeFiles/LinkRepresentationOfLinearTable.dir/main.c.obj"
+  "F:/考研复习资料/数据结构/C/DataStructure/LinearTable/CyclicLinkedList/main.c" "F:/考研复习资料/数据结构/C/DataStructure/LinearTable/CyclicLinkedList/cmake-build-debug/CMakeFiles/LinkRepresentationOfLinearTable.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

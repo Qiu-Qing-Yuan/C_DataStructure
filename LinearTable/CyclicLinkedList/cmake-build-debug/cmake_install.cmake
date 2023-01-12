@@ -1,4 +1,4 @@
-# Install script for directory: F:/C/DataStructure/LinearTable/CyclicLinkedList
+# Install script for directory: F:/考研复习资料/数据结构/C/DataStructure/LinearTable/CyclicLinkedList
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "F:/C/DataStructure/LinearTable/CyclicLinkedList/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/考研复习资料/数据结构/C/DataStructure/LinearTable/CyclicLinkedList/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
