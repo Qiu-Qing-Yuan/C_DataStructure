@@ -1,0 +1,4 @@
+"D:\DevelopTools\Clion\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" F:\考研复习资料\数据结构\C\DataStructure\Stack\LinkStack
+-- Configuring done
+-- Generating done
+-- Build files have been written to: F:/鑰冪爺澶嶄範璧勬枡/鏁版嵁缁撴瀯/C/DataStructure/Stack/LinkStack/cmake-build-debug
