@@ -15,7 +15,7 @@ typedef struct
     SElemType* base; //在栈构造之前和销毁之后，base值为NULL
     SElemType* top; //栈顶指针
     int stackSize; //当前已经分配的存储空间，以元素为单位
-}SqStack; //LinkList为指向结构体LNode的指针类型
+}SqStack;
 
 /*构造一个空栈*/
 Status InitStack(SqStack *S);
