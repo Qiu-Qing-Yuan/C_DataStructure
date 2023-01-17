@@ -21,4 +21,4 @@ Status Push(LinkStack S,SElemType e);
 /*链栈的出栈*/
 Status Pop(LinkStack S,SElemType *e);
 /*取链栈的栈顶元素*/
-SElemType GetTop(struct StackNode S);
+SElemType GetTop(StackNode* S);

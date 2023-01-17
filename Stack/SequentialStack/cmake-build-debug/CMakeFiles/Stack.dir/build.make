@@ -61,10 +61,10 @@ RM = "D:\DevelopTools\Clion\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\考研复习资料\数据结构\C\DataStructure\Stack\SequentialStack
+CMAKE_SOURCE_DIR = F:\C\DataStructure\Stack\SequentialStack
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\考研复习资料\数据结构\C\DataStructure\Stack\SequentialStack\cmake-build-debug
+CMAKE_BINARY_DIR = F:\C\DataStructure\Stack\SequentialStack\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Stack.dir/depend.make
@@ -77,29 +77,29 @@ include CMakeFiles/Stack.dir/flags.make
 
 CMakeFiles/Stack.dir/main.c.obj: CMakeFiles/Stack.dir/flags.make
 CMakeFiles/Stack.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\考研复习资料\数据结构\C\DataStructure\Stack\SequentialStack\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Stack.dir/main.c.obj"
-	D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Stack.dir\main.c.obj -c F:\考研复习资料\数据结构\C\DataStructure\Stack\SequentialStack\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C\DataStructure\Stack\SequentialStack\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Stack.dir/main.c.obj"
+	D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Stack.dir\main.c.obj -c F:\C\DataStructure\Stack\SequentialStack\main.c
 
 CMakeFiles/Stack.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Stack.dir/main.c.i"
-	D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\考研复习资料\数据结构\C\DataStructure\Stack\SequentialStack\main.c > CMakeFiles\Stack.dir\main.c.i
+	D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\C\DataStructure\Stack\SequentialStack\main.c > CMakeFiles\Stack.dir\main.c.i
 
 CMakeFiles/Stack.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Stack.dir/main.c.s"
-	D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\考研复习资料\数据结构\C\DataStructure\Stack\SequentialStack\main.c -o CMakeFiles\Stack.dir\main.c.s
+	D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\C\DataStructure\Stack\SequentialStack\main.c -o CMakeFiles\Stack.dir\main.c.s
 
 CMakeFiles/Stack.dir/stack.c.obj: CMakeFiles/Stack.dir/flags.make
 CMakeFiles/Stack.dir/stack.c.obj: ../stack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\考研复习资料\数据结构\C\DataStructure\Stack\SequentialStack\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Stack.dir/stack.c.obj"
-	D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Stack.dir\stack.c.obj -c F:\考研复习资料\数据结构\C\DataStructure\Stack\SequentialStack\stack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C\DataStructure\Stack\SequentialStack\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Stack.dir/stack.c.obj"
+	D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Stack.dir\stack.c.obj -c F:\C\DataStructure\Stack\SequentialStack\stack.c
 
 CMakeFiles/Stack.dir/stack.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Stack.dir/stack.c.i"
-	D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\考研复习资料\数据结构\C\DataStructure\Stack\SequentialStack\stack.c > CMakeFiles\Stack.dir\stack.c.i
+	D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\C\DataStructure\Stack\SequentialStack\stack.c > CMakeFiles\Stack.dir\stack.c.i
 
 CMakeFiles/Stack.dir/stack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Stack.dir/stack.c.s"
-	D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\考研复习资料\数据结构\C\DataStructure\Stack\SequentialStack\stack.c -o CMakeFiles\Stack.dir\stack.c.s
+	D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\C\DataStructure\Stack\SequentialStack\stack.c -o CMakeFiles\Stack.dir\stack.c.s
 
 # Object files for target Stack
 Stack_OBJECTS = \
@@ -115,7 +115,7 @@ Stack.exe: CMakeFiles/Stack.dir/build.make
 Stack.exe: CMakeFiles/Stack.dir/linklibs.rsp
 Stack.exe: CMakeFiles/Stack.dir/objects1.rsp
 Stack.exe: CMakeFiles/Stack.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\考研复习资料\数据结构\C\DataStructure\Stack\SequentialStack\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Stack.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\C\DataStructure\Stack\SequentialStack\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Stack.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Stack.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +128,6 @@ CMakeFiles/Stack.dir/clean:
 .PHONY : CMakeFiles/Stack.dir/clean
 
 CMakeFiles/Stack.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\考研复习资料\数据结构\C\DataStructure\Stack\SequentialStack F:\考研复习资料\数据结构\C\DataStructure\Stack\SequentialStack F:\考研复习资料\数据结构\C\DataStructure\Stack\SequentialStack\cmake-build-debug F:\考研复习资料\数据结构\C\DataStructure\Stack\SequentialStack\cmake-build-debug F:\考研复习资料\数据结构\C\DataStructure\Stack\SequentialStack\cmake-build-debug\CMakeFiles\Stack.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\C\DataStructure\Stack\SequentialStack F:\C\DataStructure\Stack\SequentialStack F:\C\DataStructure\Stack\SequentialStack\cmake-build-debug F:\C\DataStructure\Stack\SequentialStack\cmake-build-debug F:\C\DataStructure\Stack\SequentialStack\cmake-build-debug\CMakeFiles\Stack.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Stack.dir/depend
 

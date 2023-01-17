@@ -18,7 +18,19 @@ Status Push(LinkStack S,SElemType e){
 }
 /*链栈的出栈*/
 Status Pop(LinkStack S,SElemType *e){
-    /*和循序*/
+    /*删除S的栈顶元素，用e返回其值*/
+    LinkStack p;
+    if(S==NULL) return ERROR;//栈空
+    *e = S->data;//将栈顶元素赋给e
+    p = S;//用p临时保存栈顶元素空间，以备释放
+    S = S->next;//修改栈顶指针，指向新的栈顶元素
+    free(p);
+    return OK;
 }
 /*取链栈的栈顶元素*/
-SElemType GetTop(struct StackNode S);
+SElemType GetTop(StackNode* S){
+    /*与顺序栈一样，当栈非空时，返回当前栈顶元素的值，栈顶指针S保持不变*/
+    //返回S的栈顶元素，不修改栈顶指针
+    if(S!=NULL)//栈非空
+        return S->data;
+}
