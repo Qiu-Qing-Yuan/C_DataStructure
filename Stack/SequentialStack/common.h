@@ -5,6 +5,8 @@
 #define Status int
 #define OK 1
 #define ERROR 0
+#define TRUE 1
+#define FALSE 0
 #define OVERFLOW 0
 #define STACK_INIT_SIZE 100 //存储空间初始分配量
 #define STACK_INCREMENT 10 //存储空间分配增量

@@ -13,13 +13,31 @@ Status InitStack(SqStack *S){
     return OK;
 }
 /*销毁栈S，S不再存在*/
-Status DestroyStack(SqStack *S);
+Status DestroyStack(SqStack *S){
+    if(S->base){
+        free(S->base);
+        S->stackSize = 0;
+        S->base = S->top = NULL;
+    }
+    return OK;
+}
 /*把S置为空栈*/
-Status ClearStack(SqStack *S);
+Status ClearStack(SqStack *S){
+    if(S->base) S->top = S->base;
+    return OK;
+}
 /*判断S是否为空栈*/
-Status StackEmpty(SqStack S);
+Status StackEmpty(SqStack S){
+    /*若栈为空，返回TRUE；否则返回FALSE*/
+    if(S.top == S.base)
+        return TRUE;
+    else
+        return FALSE;
+}
 /*返回S的元素个数，即栈的长度*/
-int StackLength(SqStack S);
+int StackLength(SqStack S){
+    return S.top - S.base;
+}
 /*若栈不空，则用e返回S的栈顶元素，并返回OK；否则返回ERROR*/
 Status GetTop(SqStack S,SElemType *e){
     //若栈不空，则用e返回S的栈顶元素，并返回OK，否则返回ERROR
@@ -41,13 +59,17 @@ Status Push(SqStack *S,SElemType e){
         S->top = S->base + S->stackSize;
         S->stackSize += STACK_INCREMENT;
     }
+    /**S->top = e;
+    S->top++;*/
     *S->top++ = e;
     return OK;
 }
 /*若栈不空，则删除S的栈顶元素，用e返回其值，并返回OK，否则返回ERROR*/
 Status Pop(SqStack *S,SElemType *e){
-    if(S->top == S->base) return ERROR;
+    if(S->top == S->base) return ERROR;//等价于if(StackEmpty(S))
     //栈顶指针减1,将栈顶元素赋给e
+    /*--S->top;
+    *e = *S->top;*/
     *e = *--S->top;
     return OK;
 }
