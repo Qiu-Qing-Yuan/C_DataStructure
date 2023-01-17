@@ -61,10 +61,10 @@ RM = "D:\DevelopTools\Clion\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\考研复习资料\数据结构\C\DataStructure\Stack\LinkStack
+CMAKE_SOURCE_DIR = F:\C\DataStructure\Stack\LinkStack
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\考研复习资料\数据结构\C\DataStructure\Stack\LinkStack\cmake-build-debug
+CMAKE_BINARY_DIR = F:\C\DataStructure\Stack\LinkStack\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/LinkStack.dir/depend.make
@@ -77,30 +77,45 @@ include CMakeFiles/LinkStack.dir/flags.make
 
 CMakeFiles/LinkStack.dir/main.c.obj: CMakeFiles/LinkStack.dir/flags.make
 CMakeFiles/LinkStack.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\考研复习资料\数据结构\C\DataStructure\Stack\LinkStack\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LinkStack.dir/main.c.obj"
-	D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LinkStack.dir\main.c.obj -c F:\考研复习资料\数据结构\C\DataStructure\Stack\LinkStack\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C\DataStructure\Stack\LinkStack\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LinkStack.dir/main.c.obj"
+	D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LinkStack.dir\main.c.obj -c F:\C\DataStructure\Stack\LinkStack\main.c
 
 CMakeFiles/LinkStack.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LinkStack.dir/main.c.i"
-	D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\考研复习资料\数据结构\C\DataStructure\Stack\LinkStack\main.c > CMakeFiles\LinkStack.dir\main.c.i
+	D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\C\DataStructure\Stack\LinkStack\main.c > CMakeFiles\LinkStack.dir\main.c.i
 
 CMakeFiles/LinkStack.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LinkStack.dir/main.c.s"
-	D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\考研复习资料\数据结构\C\DataStructure\Stack\LinkStack\main.c -o CMakeFiles\LinkStack.dir\main.c.s
+	D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\C\DataStructure\Stack\LinkStack\main.c -o CMakeFiles\LinkStack.dir\main.c.s
+
+CMakeFiles/LinkStack.dir/stack.c.obj: CMakeFiles/LinkStack.dir/flags.make
+CMakeFiles/LinkStack.dir/stack.c.obj: ../stack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C\DataStructure\Stack\LinkStack\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/LinkStack.dir/stack.c.obj"
+	D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LinkStack.dir\stack.c.obj -c F:\C\DataStructure\Stack\LinkStack\stack.c
+
+CMakeFiles/LinkStack.dir/stack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LinkStack.dir/stack.c.i"
+	D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\C\DataStructure\Stack\LinkStack\stack.c > CMakeFiles\LinkStack.dir\stack.c.i
+
+CMakeFiles/LinkStack.dir/stack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LinkStack.dir/stack.c.s"
+	D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\C\DataStructure\Stack\LinkStack\stack.c -o CMakeFiles\LinkStack.dir\stack.c.s
 
 # Object files for target LinkStack
 LinkStack_OBJECTS = \
-"CMakeFiles/LinkStack.dir/main.c.obj"
+"CMakeFiles/LinkStack.dir/main.c.obj" \
+"CMakeFiles/LinkStack.dir/stack.c.obj"
 
 # External object files for target LinkStack
 LinkStack_EXTERNAL_OBJECTS =
 
 LinkStack.exe: CMakeFiles/LinkStack.dir/main.c.obj
+LinkStack.exe: CMakeFiles/LinkStack.dir/stack.c.obj
 LinkStack.exe: CMakeFiles/LinkStack.dir/build.make
 LinkStack.exe: CMakeFiles/LinkStack.dir/linklibs.rsp
 LinkStack.exe: CMakeFiles/LinkStack.dir/objects1.rsp
 LinkStack.exe: CMakeFiles/LinkStack.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\考研复习资料\数据结构\C\DataStructure\Stack\LinkStack\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable LinkStack.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\C\DataStructure\Stack\LinkStack\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable LinkStack.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LinkStack.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -113,6 +128,6 @@ CMakeFiles/LinkStack.dir/clean:
 .PHONY : CMakeFiles/LinkStack.dir/clean
 
 CMakeFiles/LinkStack.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\考研复习资料\数据结构\C\DataStructure\Stack\LinkStack F:\考研复习资料\数据结构\C\DataStructure\Stack\LinkStack F:\考研复习资料\数据结构\C\DataStructure\Stack\LinkStack\cmake-build-debug F:\考研复习资料\数据结构\C\DataStructure\Stack\LinkStack\cmake-build-debug F:\考研复习资料\数据结构\C\DataStructure\Stack\LinkStack\cmake-build-debug\CMakeFiles\LinkStack.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\C\DataStructure\Stack\LinkStack F:\C\DataStructure\Stack\LinkStack F:\C\DataStructure\Stack\LinkStack\cmake-build-debug F:\C\DataStructure\Stack\LinkStack\cmake-build-debug F:\C\DataStructure\Stack\LinkStack\cmake-build-debug\CMakeFiles\LinkStack.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/LinkStack.dir/depend
 

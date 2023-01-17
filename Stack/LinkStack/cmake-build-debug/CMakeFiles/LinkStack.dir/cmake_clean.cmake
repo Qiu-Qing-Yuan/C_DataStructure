@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LinkStack.dir/main.c.obj"
+  "CMakeFiles/LinkStack.dir/stack.c.obj"
   "LinkStack.exe"
   "LinkStack.exe.manifest"
   "LinkStack.pdb"

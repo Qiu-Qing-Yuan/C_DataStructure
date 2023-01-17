@@ -66,10 +66,10 @@ RM = "D:\DevelopTools\Clion\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\考研复习资料\数据结构\C\DataStructure\Stack\LinkStack
+CMAKE_SOURCE_DIR = F:\C\DataStructure\Stack\LinkStack
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\考研复习资料\数据结构\C\DataStructure\Stack\LinkStack\cmake-build-debug
+CMAKE_BINARY_DIR = F:\C\DataStructure\Stack\LinkStack\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\考研复习资料\数据结构\C\DataStructure\Stack\LinkStack\cmake-build-debug\CMakeFiles F:\考研复习资料\数据结构\C\DataStructure\Stack\LinkStack\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C\DataStructure\Stack\LinkStack\cmake-build-debug\CMakeFiles F:\C\DataStructure\Stack\LinkStack\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\考研复习资料\数据结构\C\DataStructure\Stack\LinkStack\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C\DataStructure\Stack\LinkStack\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -168,6 +168,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStack.dir\build.make CMakeFiles/LinkStack.dir/main.c.s
 .PHONY : main.c.s
 
+stack.obj: stack.c.obj
+
+.PHONY : stack.obj
+
+# target to build an object file
+stack.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStack.dir\build.make CMakeFiles/LinkStack.dir/stack.c.obj
+.PHONY : stack.c.obj
+
+stack.i: stack.c.i
+
+.PHONY : stack.i
+
+# target to preprocess a source file
+stack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStack.dir\build.make CMakeFiles/LinkStack.dir/stack.c.i
+.PHONY : stack.c.i
+
+stack.s: stack.c.s
+
+.PHONY : stack.s
+
+# target to generate assembly for a file
+stack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStack.dir\build.make CMakeFiles/LinkStack.dir/stack.c.s
+.PHONY : stack.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -180,6 +207,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... stack.obj
+	@echo ... stack.i
+	@echo ... stack.s
 .PHONY : help
 
 

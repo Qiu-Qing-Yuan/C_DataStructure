@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "F:/考研复习资料/数据结构/C/DataStructure/Stack/LinkStack/main.c" "F:/考研复习资料/数据结构/C/DataStructure/Stack/LinkStack/cmake-build-debug/CMakeFiles/LinkStack.dir/main.c.obj"
+  "F:/C/DataStructure/Stack/LinkStack/main.c" "F:/C/DataStructure/Stack/LinkStack/cmake-build-debug/CMakeFiles/LinkStack.dir/main.c.obj"
+  "F:/C/DataStructure/Stack/LinkStack/stack.c" "F:/C/DataStructure/Stack/LinkStack/cmake-build-debug/CMakeFiles/LinkStack.dir/stack.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
