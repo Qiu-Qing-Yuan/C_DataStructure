@@ -10,8 +10,8 @@ Status InitStack(LinkStack S){
 Status Push(LinkStack S,SElemType e){
     /*与顺序栈不同：链栈在入栈前不需要判断栈是否满，只需要为入栈元素动态分配一个结点空间*/
     //在栈顶插入元素e
-    LinkStack p = (LinkStack) malloc(sizeof (LinkStack ));
-    p->data = e;
+    LinkStack p = (LinkStack) malloc(sizeof (LinkStack));
+    p->data = e; //将新结点数据域置为e
     p->next = S; //将新节点插入栈顶
     S = p; //修改栈顶指针为p
     return OK;
@@ -33,4 +33,10 @@ SElemType GetTop(StackNode* S){
     //返回S的栈顶元素，不修改栈顶指针
     if(S!=NULL)//栈非空
         return S->data;
+}
+
+/*判断链栈是否为空*/
+Status StackEmpty(LinkStack S){
+    if(S==NULL) return TRUE;
+    else return FALSE;
 }

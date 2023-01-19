@@ -5,13 +5,15 @@
 #define Status int
 #define OK 1
 #define ERROR 0
+#define TRUE 1
+#define FALSE 0
 #define OVERFLOW 0
 
 typedef int SElemType; /*SElemType类型根据实际情况确定，这里假设为int*/
 typedef struct StackNode
 {
     SElemType data;
-    struct StackNode *next;
+    struct StackNode* next;
 }StackNode,*LinkStack;
 
 /*链栈的初始化*/
@@ -22,3 +24,5 @@ Status Push(LinkStack S,SElemType e);
 Status Pop(LinkStack S,SElemType *e);
 /*取链栈的栈顶元素*/
 SElemType GetTop(StackNode* S);
+/*判断链栈是否为空*/
+Status StackEmpty(LinkStack S);

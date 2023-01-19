@@ -1,0 +1,3 @@
+"D:\DevelopTools\Clion\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\SequentialQueue.dir/objects.a
+D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\ar.exe cr CMakeFiles\SequentialQueue.dir/objects.a @CMakeFiles\SequentialQueue.dir\objects1.rsp
+D:\BaiduNetdiskDownload\CBuildTools\Dev-Cpp\MinGW32\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\SequentialQueue.dir/objects.a -Wl,--no-whole-archive -o SequentialQueue.exe -Wl,--out-implib,libSequentialQueue.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SequentialQueue.dir\linklibs.rsp
