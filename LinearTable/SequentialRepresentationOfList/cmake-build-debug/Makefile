@@ -66,10 +66,10 @@ RM = "D:\DevelopTools\Clion\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\CLanguage\DataStructure\SequentialRepresentationOfList
+CMAKE_SOURCE_DIR = F:\C\DataStructure\LinearTable\SequentialRepresentationOfList
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\CLanguage\DataStructure\SequentialRepresentationOfList\cmake-build-debug
+CMAKE_BINARY_DIR = F:\C\DataStructure\LinearTable\SequentialRepresentationOfList\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLanguage\DataStructure\SequentialRepresentationOfList\cmake-build-debug\CMakeFiles F:\CLanguage\DataStructure\SequentialRepresentationOfList\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C\DataStructure\LinearTable\SequentialRepresentationOfList\cmake-build-debug\CMakeFiles F:\C\DataStructure\LinearTable\SequentialRepresentationOfList\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLanguage\DataStructure\SequentialRepresentationOfList\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C\DataStructure\LinearTable\SequentialRepresentationOfList\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -141,32 +141,32 @@ SequentialRepresentationOfList/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequentialRepresentationOfList.dir\build.make CMakeFiles/SequentialRepresentationOfList.dir/build
 .PHONY : SequentialRepresentationOfList/fast
 
-main.obj: main.c.obj
+sqlist.obj: sqlist.c.obj
 
-.PHONY : main.obj
+.PHONY : sqlist.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequentialRepresentationOfList.dir\build.make CMakeFiles/SequentialRepresentationOfList.dir/main.c.obj
-.PHONY : main.c.obj
+sqlist.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequentialRepresentationOfList.dir\build.make CMakeFiles/SequentialRepresentationOfList.dir/sqlist.c.obj
+.PHONY : sqlist.c.obj
 
-main.i: main.c.i
+sqlist.i: sqlist.c.i
 
-.PHONY : main.i
+.PHONY : sqlist.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequentialRepresentationOfList.dir\build.make CMakeFiles/SequentialRepresentationOfList.dir/main.c.i
-.PHONY : main.c.i
+sqlist.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequentialRepresentationOfList.dir\build.make CMakeFiles/SequentialRepresentationOfList.dir/sqlist.c.i
+.PHONY : sqlist.c.i
 
-main.s: main.c.s
+sqlist.s: sqlist.c.s
 
-.PHONY : main.s
+.PHONY : sqlist.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequentialRepresentationOfList.dir\build.make CMakeFiles/SequentialRepresentationOfList.dir/main.c.s
-.PHONY : main.c.s
+sqlist.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequentialRepresentationOfList.dir\build.make CMakeFiles/SequentialRepresentationOfList.dir/sqlist.c.s
+.PHONY : sqlist.c.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SequentialRepresentationOfList
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... sqlist.obj
+	@echo ... sqlist.i
+	@echo ... sqlist.s
 .PHONY : help
 
 

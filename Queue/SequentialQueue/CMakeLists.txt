@@ -3,4 +3,4 @@ project(SequentialQueue C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(SequentialQueue main.c common.h queue.c)
+add_executable(SequentialQueue common.h queue.c)

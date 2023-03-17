@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Stack.dir/main.c.obj"
   "CMakeFiles/Stack.dir/stack.c.obj"
   "Stack.exe"
   "Stack.exe.manifest"

@@ -92,12 +92,12 @@ clean: CMakeFiles/Stack.dir/clean
 CMakeFiles/Stack.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C\DataStructure\Stack\SequentialStack\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target Stack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C\DataStructure\Stack\SequentialStack\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Stack"
 .PHONY : CMakeFiles/Stack.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Stack.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C\DataStructure\Stack\SequentialStack\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C\DataStructure\Stack\SequentialStack\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Stack.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C\DataStructure\Stack\SequentialStack\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Stack.dir/rule

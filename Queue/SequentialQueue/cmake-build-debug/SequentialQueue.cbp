@@ -79,9 +79,6 @@
 		<Unit filename="F:/C/DataStructure/Queue/SequentialQueue/common.h">
 			<Option target="SequentialQueue"/>
 		</Unit>
-		<Unit filename="F:/C/DataStructure/Queue/SequentialQueue/main.c">
-			<Option target="SequentialQueue"/>
-		</Unit>
 		<Unit filename="F:/C/DataStructure/Queue/SequentialQueue/queue.c">
 			<Option target="SequentialQueue"/>
 		</Unit>

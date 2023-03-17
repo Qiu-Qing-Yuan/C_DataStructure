@@ -40,3 +40,8 @@ Status StackEmpty(LinkStack S){
     if(S==NULL) return TRUE;
     else return FALSE;
 }
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}

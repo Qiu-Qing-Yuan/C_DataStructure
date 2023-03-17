@@ -3,4 +3,4 @@ project(SequentialRepresentationOfList)
 
 set(CMAKE_CXX_STANDARD 98)
 
-add_executable(SequentialRepresentationOfList main.c main.h)
+add_executable(SequentialRepresentationOfList main.h sqlist.c)

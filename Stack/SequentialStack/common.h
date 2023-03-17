@@ -10,13 +10,19 @@
 #define OVERFLOW 0
 #define STACK_INIT_SIZE 100 //存储空间初始分配量
 #define STACK_INCREMENT 10 //存储空间分配增量
+#define MaxSize 10 //定义栈中元素最大个数
 
 typedef int SElemType; /*SElemType类型根据实际情况确定，这里假设为int*/
-typedef struct
+/*typedef struct
 {
     SElemType* base; //在栈构造之前和销毁之后，base值为NULL
     SElemType* top; //栈顶指针
     int stackSize; //当前已经分配的存储空间，以元素为单位
+}SqStack;*/
+
+typedef struct{
+    ElemType data[MaxSize];//静态数组存放栈中元素
+    int top; //栈顶指针:一般来说记录的是数组下标（从0开始）
 }SqStack;
 
 /*构造一个空栈*/

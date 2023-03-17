@@ -79,9 +79,6 @@
 		<Unit filename="F:/C/DataStructure/Stack/SequentialStack/common.h">
 			<Option target="Stack"/>
 		</Unit>
-		<Unit filename="F:/C/DataStructure/Stack/SequentialStack/main.c">
-			<Option target="Stack"/>
-		</Unit>
 		<Unit filename="F:/C/DataStructure/Stack/SequentialStack/stack.c">
 			<Option target="Stack"/>
 		</Unit>

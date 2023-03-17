@@ -49,3 +49,9 @@ QElemType GetHead(SqQueue Q){
     if(Q.front!=Q.rear) //队列非空
         return Q.base[Q.front]; //返回队头元素的值
 }
+
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}

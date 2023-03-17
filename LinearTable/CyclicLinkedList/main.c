@@ -3,8 +3,10 @@
 Status InitList(LinkList L)
 {
     //构造一个空的单链表
-    L = (LinkList)malloc(sizeof (LNode));//生成新节点作为头结点，用头指针L指向头结点
-    L->next = NULL;
+    L = (LNode *)malloc(sizeof (LNode));//生成新节点作为头结点，用头指针L指向头结点
+    if(L==NULL)
+        return ERROR;
+    L->next = L;
     return OK;
 }
 
@@ -132,6 +134,23 @@ void MergeList_L(LinkList la,LinkList lb,LinkList lc)
     free(lb);//释放lb的头结点
 }
 
+
+/*王道：判断单链表是否为空*/
+Status isEmpty(LinkList L){
+    if(L->next == L){
+        return  OK;
+    }else{
+        return  ERROR;
+    }
+}
+
+/*王道：判断结点p是否为循环单链表的表尾结点*/
+Status isTail(LinkList L,LNode *p){
+    if(p->next == L)
+        return OK;
+    else
+        return ERROR;
+}
 
 int main() {
     printf("Hello, World!\n");

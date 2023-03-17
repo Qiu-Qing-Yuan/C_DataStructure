@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "F:/C/DataStructure/Queue/SequentialQueue/main.c" "F:/C/DataStructure/Queue/SequentialQueue/cmake-build-debug/CMakeFiles/SequentialQueue.dir/main.c.obj"
   "F:/C/DataStructure/Queue/SequentialQueue/queue.c" "F:/C/DataStructure/Queue/SequentialQueue/cmake-build-debug/CMakeFiles/SequentialQueue.dir/queue.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

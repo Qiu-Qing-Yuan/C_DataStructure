@@ -3,4 +3,4 @@ project(LinkStack C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(LinkStack main.c stack.c)
+add_executable(LinkStack stack.c)

@@ -76,9 +76,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="F:/C/DataStructure/Stack/LinkStack/main.c">
-			<Option target="LinkStack"/>
-		</Unit>
 		<Unit filename="F:/C/DataStructure/Stack/LinkStack/stack.c">
 			<Option target="LinkStack"/>
 		</Unit>

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "F:/CLanguage/DataStructure/SequentialRepresentationOfList/main.c" "F:/CLanguage/DataStructure/SequentialRepresentationOfList/cmake-build-debug/CMakeFiles/SequentialRepresentationOfList.dir/main.c.obj"
+  "F:/C/DataStructure/LinearTable/SequentialRepresentationOfList/sqlist.c" "F:/C/DataStructure/LinearTable/SequentialRepresentationOfList/cmake-build-debug/CMakeFiles/SequentialRepresentationOfList.dir/sqlist.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

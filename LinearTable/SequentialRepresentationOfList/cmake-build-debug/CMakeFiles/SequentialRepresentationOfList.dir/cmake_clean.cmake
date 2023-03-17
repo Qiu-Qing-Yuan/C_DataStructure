@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SequentialRepresentationOfList.dir/main.c.obj"
+  "CMakeFiles/SequentialRepresentationOfList.dir/sqlist.c.obj"
   "SequentialRepresentationOfList.exe"
   "SequentialRepresentationOfList.exe.manifest"
   "SequentialRepresentationOfList.pdb"

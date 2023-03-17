@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-F:/CLanguage/DataStructure/SequentialRepresentationOfList/main.c
-main.h
-F:/CLanguage/DataStructure/SequentialRepresentationOfList/main.h
-stdio.h
-F:/CLanguage/DataStructure/SequentialRepresentationOfList/stdio.h
-malloc.h
-F:/CLanguage/DataStructure/SequentialRepresentationOfList/malloc.h
+F:/C/DataStructure/LinearTable/SequentialRepresentationOfList/main.h
 
-F:/CLanguage/DataStructure/SequentialRepresentationOfList/main.h
+F:/C/DataStructure/LinearTable/SequentialRepresentationOfList/sqlist.c
+stdio.h
+F:/C/DataStructure/LinearTable/SequentialRepresentationOfList/stdio.h
+malloc.h
+F:/C/DataStructure/LinearTable/SequentialRepresentationOfList/malloc.h
+main.h
+F:/C/DataStructure/LinearTable/SequentialRepresentationOfList/main.h
 
