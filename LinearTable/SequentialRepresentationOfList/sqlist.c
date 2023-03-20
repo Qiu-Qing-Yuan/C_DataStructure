@@ -19,6 +19,14 @@ void InitList(SeqList *L){
     L->MaxSize = INITSIZE;
 }
 
+//获取对应位序元素
+Status GetElem(SeqList L,int i,ElemType *e){
+    if(L.length==0 || i<1 || i>L.length)
+        return ERROR;
+    *e = L.data[i-1];
+    return OK;
+}
+
 void IncreaseSize(SeqList *L,int len){
     int i;
     ElemType *p = L->data;
@@ -29,6 +37,25 @@ void IncreaseSize(SeqList *L,int len){
     L->MaxSize = L->MaxSize+len; //顺序表的最大长度增加len
     free(p); //释放原来的内存空间
 }
+
+//插入元素
+Status ListInsert(SeqList *L,int i,ElemType e){
+    int k;
+    if(L->length == MAXSIZE)
+        return ERROR;//顺序表已满
+    if(i<1 || i>L->length+1) //插入位置不合法
+        return ERROR;
+    if(i<=L->length){
+        //若插入数据位置不在表尾
+        for(k=L->length-1;k>=i-1;k--){
+            L->data[k+1]=L->data[k];
+        }
+    }
+    L->data[i-1]=e;//新元素插入
+    L->length++;
+    return OK;
+}
+
 
 //7、插入元素（在线性表L的第i个位置之前插入新的元素e）
 /*Status ListInsert(SeqList *L,int i,ElemType e){
