@@ -56,6 +56,9 @@ Status ListInsert(SeqList *L,int i,ElemType e){
     return OK;
 }
 
+//删除元素
+
+
 
 //7、插入元素（在线性表L的第i个位置之前插入新的元素e）
 /*Status ListInsert(SeqList *L,int i,ElemType e){
@@ -112,6 +115,7 @@ int LocateElem(SeqList L,ElemType e){
 Status ListDelete(SeqList *L,int i,int *e){
     int j;
     if(i<1||i>L->length) return ERROR;
+
     *e = L->data[i-1];
     for(j=i;j<=L->length-1;j++)
         L->data[j-1] = L->data[j];

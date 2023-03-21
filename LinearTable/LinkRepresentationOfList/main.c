@@ -147,11 +147,10 @@ void MergeList_L(LinkList la,LinkList lb,LinkList lc)
 /*根据返回的结点是否为NULL，判断查找操作是否成功
  * 当i值不合法的时候，最终返回的就是一个NULL*/
 LNode* GetElem2(LinkList L,int i){
+    LNode* p = L; //指向当前扫描到的结点
+    int j=0;//当前p指向的是第几个结点，0为头结点
     if(i<0)
         return NULL;
-    LNode* p; //指向当前扫描到的结点
-    int j=0;//当前p指向的是第几个结点，0为头结点
-    p=L;//L是头结点，头结点不存储数据
     while(p!=NULL && j<i){
         //循环找到第i个结点
         p=p->next;
@@ -159,8 +158,6 @@ LNode* GetElem2(LinkList L,int i){
     }
     return p;
 }
-
-
 
 
 /*王道尾插法建立单链表：有头结点--正向建立单链表*/
