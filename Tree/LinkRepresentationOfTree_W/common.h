@@ -7,6 +7,8 @@
 #define Status int
 #define bool int
 
+
+
 /*struct ElemType{
     int value;
 };*/
@@ -27,4 +29,10 @@ typedef struct LinkNode{
 typedef struct {
     LinkNode *front,*rear; //队头队尾
 }LinkQueue;
+
+
+//辅助全局变量，用于查找结点p的前驱
+BiTNode *p; //p指向目标结点
+BiTNode *pre = NULL; //指向当前访问结点的前驱
+BiTNode *final = NULL; //用于记录最终结果
 
