@@ -12,6 +12,7 @@ Status InitList(LinkList L)
 //取值
 Status GetElem(LinkList L,int i,ElemType *e)
 {
+    //或者直接把L指针赋值给p，然后令j初值为0
     LNode* p = L->next;//初始化，p指向首元结点，计数器j初值赋为1
     int j = 1;
     while(p && j<i) //顺链域向后扫描，直到p为空域或者p指向第i个元素
@@ -47,18 +48,9 @@ Status ListInsert(LinkList L,int i,ElemType e)
     s->data = e;
     s->next = p->next;
     p->next = s;
+    //    free(p);
     return OK;
 }
-
-
-
-
-
-
-
-
-
-
 
 //删除
 Status ListDelete(LinkList L,int i)
@@ -99,11 +91,10 @@ void CreateList_H(LinkList L,int n)
 void CreateList_R(LinkList L,int n)
 {
     int i;
-    LNode* p;
+    LinkList p,r;
     srand(time(0));
     L = (LinkList) malloc(sizeof (LNode));
     L->next = NULL;
-    LinkList r = L;
     for(i=0;i<n;i++)
     {
         p = (LinkList) malloc(sizeof (LNode));
@@ -142,59 +133,6 @@ void MergeList_L(LinkList la,LinkList lb,LinkList lc)
 
 
 
-
-//王道：按位查找（），返回第i个元素（带头结点）
-/*根据返回的结点是否为NULL，判断查找操作是否成功
- * 当i值不合法的时候，最终返回的就是一个NULL*/
-LNode* GetElem2(LinkList L,int i){
-    LNode* p = L; //指向当前扫描到的结点
-    int j=0;//当前p指向的是第几个结点，0为头结点
-    if(i<0)
-        return NULL;
-    while(p!=NULL && j<i){
-        //循环找到第i个结点
-        p=p->next;
-        j++;
-    }
-    return p;
-}
-
-
-/*王道尾插法建立单链表：有头结点--正向建立单链表*/
-LinkList List_TailInsert(LinkList L){
-    int x;  //设ELemType为整形
-    L = (LinkList)malloc(sizeof (LNode));//建立头结点 （初始化空表）
-    L->next = NULL;
-    LNode *s,*r=L; //r为表尾指针
-    scanf("%d",&x);//输入结点的值
-    while(x != 9999){ //输入9999表示结束
-        s = (LNode* ) malloc(sizeof (LNode));
-        s->data = x;
-        r->next = s;    //在r结点之后插入元素x
-        r = s;// r指向新的表尾结点  永远保持r指向最后一个结点
-        scanf("%d",&x);
-    }
-    r->next = NULL; //尾结点指针置为空
-    return L;
-
-}
-
-/*王道头插法建立单链表*/
-LinkList List_HeadInsert(LinkList L){
-    LNode *s;
-    int x;
-    L = (LinkList) malloc(sizeof (LNode));
-    L->next = NULL;//初始化为空链表
-    scanf("%d",&x); //输入结点的值
-    while(x!=9999){
-        s = (LNode* ) malloc(sizeof (LNode));//创建新结点
-        s->data = x;
-        s->next = L->next;
-        L->next = s; //将新结点插入表中，L为头指针
-        scanf("%d",&x);
-    }
-    return L;
-}
 int main() {
     printf("Hello, World!\n");
     /*此处并没有创建一个结点*/
