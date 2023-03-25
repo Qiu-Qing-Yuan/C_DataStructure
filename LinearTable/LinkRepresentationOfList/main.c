@@ -130,7 +130,18 @@ void MergeList_L(LinkList la,LinkList lb,LinkList lc)
     free(lb);//释放lb的头结点
 }
 
-
+//单链表的整表删除
+Status ClearList(LinkList L){
+    LinkList p,q;
+    p = L->next;  //p指向第一个结点
+    while(p){
+        q = p->next;
+        free(p);
+        p = q;
+    }
+    L->next = NULL; //头结点指针域置为空
+    return OK;
+}
 
 
 int main() {
